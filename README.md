@@ -302,8 +302,3 @@ def analyze_sentiment(text: str = Form(...)):
         logger.error(f"Unexpected error: {e}")
         return {"sentiment": "Unexpected error occurred"}
 ```
-
-## License
-
-This project is licensed under the MIT License.
-
